@@ -32,7 +32,7 @@ To configure archiving, you must have an IAM policy with platform role **Viewer*
 
 You archive logs from an {{site.data.keyword.la_full_notm}} instance into a bucket in an {{site.data.keyword.cos_full_notm}} (COS) instance. Each {{site.data.keyword.la_full_notm}} instance has its own archiving configuration. 
 
-Logs are automatically archived once a day in a compressed format **(.json.gz)**. Each line preserves its metadata.
+Logs are automatically archived once a hour in a compressed format **(.json.gz)**. Each line preserves its metadata.
 
 Logs are archived 24 - 48 hours after you save the configuration. 
 
@@ -340,7 +340,7 @@ Complete the following steps to configure archiving of your {{site.data.keyword.
 5. Click **Save**.
 
 
-After you save the configuration, logs are archived once a day.
+After you save the configuration, logs are archived once an hour.
 
 
 
